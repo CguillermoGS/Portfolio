@@ -16,7 +16,8 @@ export const Projects = () => {
       title: "Landing Page",
       description: "Design & Development",
       imgUrl: projImg1,
-      alt:"https://github.com/CguillermoGS",
+     
+      
       
     },
     {
