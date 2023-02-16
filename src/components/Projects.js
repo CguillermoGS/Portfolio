@@ -4,7 +4,7 @@ import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
 import projImg4 from "../assets/img/project-img4.png";
-import projImg5 from "../assets/img/project-img4.png";
+import projImg5 from "../assets/img/project-img5.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -14,28 +14,27 @@ export const Projects = () => {
   const projects = [
     {
       title: "Landing Page",
-      description: "Design & Development",
+      description: <a href="https://krebcy-food.netlify.app" target="_blank">"Design & Development"</a>,
       imgUrl: projImg1,
-     
-      
-      
     },
     {
-      title: "CrudApp",
-      description: "Design & Development",
-      aimgUrl: projImg2,
+      title: "DashboardApp",
+      description: <a href="https://cguillermogs.github.io/Dashboard.github.io/" target="_blank">"Design & Development"</a>,
+      imgUrl: projImg5,
     },
+    
     {
       title: "RestaurantApp",
-      description: "Design & Development",
+      description: <a href="https://restaurantappburgercity.netlify.app" target="_blank">"Design & Development"</a>,
       imgUrl: projImg3,
     },
   
     {
       title: "EcommerceApp",
-      description: "Design & Development",
+      description: <a href="https://ecommerceapplicationproject.netlify.app" target="_blank">"Design & Development"</a>,
       imgUrl: projImg4,
     },
+ 
  
    
   ];

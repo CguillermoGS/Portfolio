@@ -55,7 +55,6 @@ export const Skills = () => {
                             </div>
                             <div className="item">
                                 <img src={meter5} alt="Image" />
-                             
                             </div>
                           
                         </Carousel>
